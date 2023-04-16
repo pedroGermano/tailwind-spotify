@@ -26,6 +26,13 @@ export default function Home(){
               You Library
             </a>
           </nav>
+
+          <nav className='mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-2'>
+            <a className="text-sm text-zinc-400 hover:text-zinc-100" href="#">Rock Nacional</a>
+            <a className="text-sm text-zinc-400 hover:text-zinc-100" href="#">Heavy Metal</a>
+            <a className="text-sm text-zinc-400 hover:text-zinc-100" href="#">Hard Core</a>
+            <a className="text-sm text-zinc-400 hover:text-zinc-100" href="#">Power Metal</a>
+          </nav>
         </aside>
         <main className="flex-1 p-6">
           main
